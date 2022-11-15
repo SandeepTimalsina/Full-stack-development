@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: azure;
+}
+.calculator
+{
+ background-color:rgb(174, 183, 159);
+ display: grid;
+ grid-template-columns: repeat(4, 68px);
+
+}
+input {
+    grid-column: span 4;
+    height: 70px;
+    width: 263px;
+    background-color: bisque;
+    
+}
+button {
+    margin: 9px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+.equal {
+    width: 120px;
+    background-color: rgb(217, 196, 196);
+    border: none;
+
+}

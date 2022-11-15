@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Baseball Counter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h4>HOME</h4>
+            <span id="homeoutput">0</span>
+            <div class="buttondiv">
+            <button onclick="Hadd1()">+1</button>
+            <button onclick="Hadd2()">+2</button>
+            <button onclick="Hadd3()">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h4>
+                GUEST
+            </h4>
+            <span id="guestoutput">0</span>
+            <div class="buttondiv">
+            <button onclick="Gadd1()">+1</button>
+            <button onclick="Gadd2()">+2</button>
+            <button onclick="Gadd3()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button onclick="newgame()">NEW GAME</button>
+    <script src="script.js"></script>
+</body>
+</html>
