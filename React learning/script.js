@@ -1,0 +1,11 @@
+ReactDOM.render(
+    <ul>
+        <li>
+            Sandeep
+        </li>
+        <li>
+            Timalsina
+        </li>
+    </ul>
+    ,document.getElementById("root")
+)

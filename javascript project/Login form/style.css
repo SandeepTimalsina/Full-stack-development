@@ -1,0 +1,47 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 4vh;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    
+}
+form h3 {
+    color:darkolivegreen;
+    text-align: center;
+}
+form input {
+    border: none;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+button {
+    padding: 8px;
+    background-color: rgb(161, 101, 101);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 150px;
+    outline: none;
+}

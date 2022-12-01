@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: darksalmon;
+}
+.form-box {
+    position: relative;
+    background-color: rgb(23, 175, 94);
+    margin: 6% auto;
+    padding: 5px;
+    height:480px;
+    width: 380px;
+}
+.button-box {
+    width:220px;
+    margin:35px auto;
+    position: realtive;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}

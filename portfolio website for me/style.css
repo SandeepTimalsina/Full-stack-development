@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+#background-img {
+    background-image: url('images/background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+nav span {
+    font-size: 30px;
+    font-weight: bolder;
+    height: 50px;
+    width:50px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+nav span:hover {
+    color:rgb(37, 180, 126);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 43px;
+    background-color: rgb(46, 46, 46);
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    margin: 10px 10px 0 0;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+nav ul li a:hover {
+    color:rgb(37, 180, 126);
+}
+/* ---- intro page -----*/
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+.intro h1 {
+    font-size: 40px;
+    color: white;
+    margin: 3px 0 3px 0;
+}
+.intro p {
+    font-size: 20px;
+    color: white;
+    margin: 3px 0 3px 0;
+}
+.intro a {
+    text-decoration: none;
+    padding: 5px 15px 5px 15px ;
+    background-color: rgb(37, 180, 126) ;
+    border: none;
+    border-radius: 2px;
+    margin: 3px 0 3px 0;
+    cursor: pointer;
+    color: white;
+}
+.intro a:hover {
+    background-color:rgb(46, 46, 46);
+    border:solid 1px rgb(37, 180, 126);
+}
+/* --------Services   Skills-section-------*/
+.skills-section {
+    display: grid;
+    height: 40vh;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(46, 46, 46);
+}
+.skills-section div {
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills-section div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skills-section div img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%
+}
+.skills-section div h1,p{
+    color: white;
+    margin: 5px 2px;
+}
+/*-------About me-----*/
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(81, 81, 81);
+}
+#about-me-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border-radius: 50%;
+    grid-column: 1fr;
+}
+
+#about-me-image img {
+    border-radius: 50%;
+}
+#about-me-section h1 {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 35px;
+}
+#about-me-section {
+    background-color:rgb(96, 96, 96) ;
+}
+#about-me-section p {
+    margin: 5px 10px 5px 10px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+/*-------projects------*/
+.projects {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(74, 74, 74);
+}
+.projects h1 {
+    text-align: center;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+/*--------Contact me------*/
+.contact-me {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(67, 67, 67);
+    color: rgb(37, 180, 126);
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
